@@ -101,13 +101,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="163dp"
+        android:backgroundTint="#009688"
+        android:visibility="invisible"
+        android:text="Finish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
 
     <LinearLayout
         android:id="@+id/q_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="0dp"
+            android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
